@@ -7,6 +7,7 @@ import Icon28TargetOutline from '@vkontakte/icons/dist/28/target_outline';
 import Icon16Search from '@vkontakte/icons/dist/16/search';
 import Icon28BugOutline from '@vkontakte/icons/dist/28/bug_outline';
 import { addres } from './addres' //подключаем объект с адресами
+import './App.css'//свои стили фона button
 
 class App extends Component {
 	constructor(props) {
@@ -64,12 +65,12 @@ class App extends Component {
 			<View id="view" activePanel="panel">
 				<Panel id="panel">
 					<PanelHeader>поиск адресов РП-ТП</PanelHeader>
-					<div className="container bg-dark text-center ">
+					<div className="container bg-secondary text-center ">
 						<div className='container p-2'>
 							<a type="button" className="btn btn-danger btn-lg btn-block" href='https://ilgiz.h1n.ru/index.php'>на главную</a>
 							<Search value={this.state.search} onChange={this.handleChange} placeholder='введите название РП-ТП, не менее 3 символов' />
 							<Div style={{ display: 'flex' }}>
-								<Button stretched before={<Icon16Search width={24} height={24} />} size="l" onClick={this.searchAddres}>
+								<Button id='search' stretched before={<Icon16Search width={24} height={24} />} size="l" onClick={this.searchAddres}>
 									ПОИСК
 								</Button>
 							</Div>

@@ -1,0 +1,14 @@
+:root {
+    --accent: #528bcc;
+    --background_content: rgb(58, 84, 119);
+  }
+  .Button {
+    /* color: var(--accent); */
+    background: var(--background_content);
+  }
+  /* .PanelHeader{
+    background: var(--accent);
+  } */
+  #search{
+    background: var(--accent);
+  }
