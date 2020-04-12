@@ -33,5 +33,17 @@
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.9.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
