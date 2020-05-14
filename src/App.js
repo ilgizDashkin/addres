@@ -6,7 +6,8 @@ import Icon28SafariOutline from '@vkontakte/icons/dist/28/safari_outline';
 import Icon28TargetOutline from '@vkontakte/icons/dist/28/target_outline';
 import Icon16Search from '@vkontakte/icons/dist/16/search';
 import Icon28BugOutline from '@vkontakte/icons/dist/28/bug_outline';
-import { addres } from './addres' //подключаем объект с адресами
+// import { addres } from './addres' //подключаем объект с адресами
+import { addres } from './adres_clear' //подключаем объект с адресами без латинских РП ТП
 import './App.css'//свои стили фона button
 
 class App extends Component {
